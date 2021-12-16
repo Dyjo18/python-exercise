@@ -1,23 +1,25 @@
-first_number = int(22) 
-second_number =int(22)
-third_number = int(22)
-four_number = int(22) 
-five_number =int(22)
+ 
+  
 
 print("Hello")
 print ("Tu veut calculer la moyenne de ta classe ?\nLa note est obligatoirement sur 20!")
+first_number = int(input("Donner moi la note 1 ")) 
 while  (first_number>=21) :
     print("OOPS votre note n'est pas sur 20 !")
     first_number = int(input("Donner moi la note 1 ")) 
+second_number = int(input("Donner moi la note 2 "))
 while  (second_number>=21) :
     print("OOPS votre note n'est pas sur 20 !")
     second_number = int(input("Donner moi la note 2 ")) 
+third_number = int(input("Donner moi la note 3 ")) 
 while  (third_number>=21) :
     print("OOPS votre note n'est pas sur 20 !")
     third_number = int(input("Donner moi la note 3 ")) 
+four_number = int(input("Donner moi la note 4 ")) 
 while  (four_number>=21) :
     print("OOPS votre note n'est pas sur 20 !")
     four_number = int(input("Donner moi la note 4 ")) 
+int(input("Donner moi la note 5 ")) 
 while  (five_number>=21) :
     print("OOPS votre note n'est pas sur 20 !")
     five_number = int(input("Donner moi la note 5 ")) 
