@@ -1,0 +1,39 @@
+first_number = int(22) 
+second_number =int(22)
+third_number = int(22)
+four_number = int(22) 
+five_number =int(22)
+
+print("Hello")
+print ("Tu veut calculer la moyenne de ta classe ?\nLa note est obligatoirement sur 20!")
+while  (first_number>=21) :
+    print("OOPS votre note n'est pas sur 20 !")
+    first_number = int(input("Donner moi la note 1 ")) 
+while  (second_number>=21) :
+    print("OOPS votre note n'est pas sur 20 !")
+    second_number = int(input("Donner moi la note 2 ")) 
+while  (third_number>=21) :
+    print("OOPS votre note n'est pas sur 20 !")
+    third_number = int(input("Donner moi la note 3 ")) 
+while  (four_number>=21) :
+    print("OOPS votre note n'est pas sur 20 !")
+    four_number = int(input("Donner moi la note 4 ")) 
+while  (five_number>=21) :
+    print("OOPS votre note n'est pas sur 20 !")
+    five_number = int(input("Donner moi la note 5 ")) 
+
+    
+moyenne = round((first_number+second_number+third_number+four_number+five_number)/5)
+print('Ta moyenne est de '+str(moyenne))
+
+if(moyenne<=4):
+     print('Ta moyenne est '"pas terrible.")
+elif(moyenne>=5 and moyenne<=9):
+    print('Ta moyenne est '"pas au top. Motivez-vous les gars.")
+elif(moyenne>=10 and moyenne<=14):
+    print('Ta moyenne est '"bonne! Continuez comme ça.")
+elif(moyenne>=15 and moyenne<=19):
+    print('Ta moyenne est '"au top! Vous êtes les meilleurs.")
+elif(moyenne==20):
+    print('Ta moyenne est '"INSANE! Prenez ma place.")
+   
