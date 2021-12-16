@@ -31,7 +31,7 @@ while  (continued <2) :
  
  while(continued >=3):
          print("Désoler,ce choit n'est pas disponible.Veut tu réessayer ? ")
-         continued= int(str(input("Vouler vous continuer a calculer ? \noui[1]\nnon[2] ")))
+         continued= int(str(input("Vouler vous continuer a calculer ? \n oui[1]\n non[2] ")))
 
 
  
