@@ -1,8 +1,8 @@
-time = int(input("Donner moi un temps en seconde "))
+time = int(input("Donner moi un temps en seconde : "))
 
-hours = round((time/3600) , 2)
-minutes = time/60
+hours = int(time/3600)
+hours_reminder= int(time%3600)
+minutes = int(hours_reminder/60)
+minutes_reminder= int(minutes%60)
 
-print (str(hours)+" H")
-print (str(minutes)+" M")
-print (str(time)+" S")
+print (str(hours)+":"+str(minutes)+":"+str(minutes_reminder))
