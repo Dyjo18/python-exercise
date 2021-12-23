@@ -1,9 +1,12 @@
 
 
 for i in range(101) :
-    print(i)
-
-    if(i % 3 == 0) :
-       print("fizz")
-    if(i % 5 == 0) :
-        print("buzz")
+    
+    if i % 3 == 0 and i % 5 == 0 :
+        print(str(i)+" - fizzbuzz")
+    elif(i % 3 == 0) :
+       print(str(i)+" - fizz")
+    elif(i % 5 == 0) :
+        print(str(i)+" - buzz")
+    else :
+        print(i)
