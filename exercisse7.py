@@ -6,19 +6,20 @@ while  (continued <2) :
  second_number = int(input("Interraissent. Et ton 2e nombre ? "))
  
  operation = int(input("Okay\nQuel opération voullez vous faire ?  \nAddition (1) \nSoustraction (2) \nDivision (3) \nMultiplication (4)\n"))
- if(second_number==0) or (first_number==0):
-               print("Imposible!!!!")
+
                 
- elif(operation == 1):
+ if(operation == 1):
         result= first_number + second_number
         print("votre calcul est " + str(first_number) + " + " + str(second_number) + " = " +str(result)+"   😎")
  elif(operation == 2):
         result = first_number - second_number
         print("votre calcul est " + str(first_number) + " - " + str(second_number) + " = " +str(result)+"   😎") 
  elif(operation == 3):
-        
-        result = first_number / second_number
-        print("votre calcul est " + str(first_number) + " / " + str(second_number) + " = " +str(result)+"   😎") 
+        if(first_number == 0 ) or (second_number == 0):
+               print("Impossible !!")
+        if(first_number >=1) and (second_number >=1):
+            result = first_number / second_number
+            print("votre calcul est " + str(first_number) + " / " + str(second_number) + " = " +str(result)+"   😎") 
  elif(operation == 4):
         result = first_number * second_number
         print("votre calcul est " + str(first_number) + " * " + str(second_number) + " = " +str(result)+"   😎") 
