@@ -35,5 +35,5 @@ elif(moyenne>=10 and moyenne<=14):
 elif(moyenne>=15 and moyenne<=19):
     print('Ta moyenne est '"au top! Vous êtes les meilleurs.")
 elif(moyenne==20):
-    print('Ta moyenne est '"INSANE! Prenez ma place.")
+    print('Ta moyenne est '"INSANE! Prenez ma place.") 
    
