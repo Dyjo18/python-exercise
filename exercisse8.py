@@ -1,6 +1,5 @@
  
-  
-
+five_number=""
 print("Hello")
 print ("Tu veut calculer la moyenne de ta classe ?\nLa note est obligatoirement sur 20!")
 first_number = int(input("Donner moi la note 1 ")) 
@@ -20,12 +19,12 @@ while  (four_number>=21) :
     print("OOPS votre note n'est pas sur 20 !")
     four_number = int(input("Donner moi la note 4 ")) 
 int(input("Donner moi la note 5 ")) 
-while  (five_number>=21) :
+while  (five_number >= 21) :
     print("OOPS votre note n'est pas sur 20 !")
-    five_number = int(input("Donner moi la note 5 ")) 
+    five_number = int(input("Donner moi la note 5 "))
 
-    
-moyenne = round((first_number+second_number+third_number+four_number+five_number)/5)
+
+moyenne = round((str(first_number)+str(second_number)+str(third_number)+str(four_number)+str(five_number))/5)
 print('Ta moyenne est de '+str(moyenne))
 
 if(moyenne<=4):
